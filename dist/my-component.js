@@ -15,6 +15,7 @@
     window.ByuCard = ByuCard;
 
 })(`<style>:host {
+  display: inline-block;
   background-color: #fff;
   padding: 15px;
   -moz-box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
