@@ -1,0 +1,9 @@
+---
+name: BYU Card component
+description: BYU Card component for styling cards
+resources:
+  - src: dist/**
+    dest: ./
+entrypoints:
+  bootstrap.js: 'Examines browser support and downloads the appropriate component bundle'
+docs: https://github.com/byuweb/byu-card
