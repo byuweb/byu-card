@@ -14,21 +14,17 @@ $navy: #002E5D;
 	vertical-align: top;
 
 }
-:host .card {
+:host {
 	 min-width: 250px;
 	margin-bottom: 20px;
  }
 
-:host .card {
-	min-width: 250px;
-}
-
-:host[columns='2'] .card {
+:host[columns='2']  {
 	min-width: 250px;
 	width: 45%;
 	margin: 15px 2.5%;
 }
-:host[columns='3'] .card {
+:host[columns='3']  {
 	min-width: 250px;
 	width: 30%;
 	margin: 15px 2%;
@@ -39,6 +35,18 @@ $navy: #002E5D;
 	width: 23%;
 	margin: 15px 1%;
 }
+
+:host img {
+	width: 100%;
+	padding: 0px;
+}
+:host {
+	h1,h2,h3,div,p {
+		width: 100%;
+		padding: 10px 15px;
+	}
+}
+
 // for mobile / tablet
 @media screen and (max-width: 1024px){
 	:host[columns='2'] .card, :host[columns='3'] .card, :host[columns='4'] .card {
