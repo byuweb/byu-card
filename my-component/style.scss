@@ -14,6 +14,14 @@ $navy: #002E5D;
 	vertical-align: top;
 
 }
+:host .card {
+	 min-width: 250px;
+ }
+
+:host .card {
+	min-width: 250px;
+}
+
 :host[columns='2'] .card {
 	min-width: 250px;
 	width: 45%;
