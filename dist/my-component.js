@@ -68,17 +68,10 @@
   color: #444; }
 </style>
 
-<div>My Custom Card Component</div>
-
-
 <!-- Use the id "title" for title -->
-
-<!--<div class="card">-->
-
 		<slot id="card-content">
 		</slot>
 
-<!--</div>-->
 
 
 
