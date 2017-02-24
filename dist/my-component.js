@@ -27,6 +27,11 @@
   max-width: 700px;
   margin-bottom: 20px; }
 
+:host:hover {
+  -moz-box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.3); }
+
 :host[columns='2'] {
   min-width: 250px;
   width: 45%;
@@ -68,17 +73,10 @@
   color: #444; }
 </style>
 
-<div>My Custom Card Component</div>
-
-
 <!-- Use the id "title" for title -->
-
-<!--<div class="card">-->
-
 		<slot id="card-content">
 		</slot>
 
-<!--</div>-->
 
 
 

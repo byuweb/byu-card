@@ -11,6 +11,7 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
+    "gulp-install": "^0.6.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
