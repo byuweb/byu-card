@@ -1,4 +1,3 @@
-(function (template) {
     'use strict';
 
     class ByuCard extends HTMLElement {
@@ -14,4 +13,3 @@
     window.customElements.define('byu-card', ByuCard);
     window.ByuCard = ByuCard;
 
-})(/* FUSE */);

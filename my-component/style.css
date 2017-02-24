@@ -18,11 +18,6 @@
 #card-content ::slotted(img) {
   padding: 0; }
 
-@media screen and (max-width: 1024px) {
-  :host[columns='2'] .card, :host[columns='3'] .card, :host[columns='4'] .card {
-    width: 90%;
-    max-width: 400px; } }
-
 :host.picture-left #inner-top .profile-image {
   order: 1; }
 
