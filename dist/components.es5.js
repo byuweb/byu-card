@@ -144,6 +144,5 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
         /***/
     }]);
-    //# sourceMappingURL=components.js.map
 })();
 //# sourceMappingURL=components.es5.js.map
