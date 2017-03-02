@@ -1,5 +1,5 @@
     'use strict';
-
+    const template = require('./template.html');
     class ByuCard extends HTMLElement {
 
         constructor() {
