@@ -35,12 +35,12 @@ $navy: #002E5D;
 //	margin: 15px 1%;
 //}
 
-#card-content ::slotted(*) {
+#card-content::slotted(*) {
 	width: 100%;
 	padding: 10px 15px;
 }
 
-#card-content ::slotted(img) {
+#card-content::slotted(img) {
 	padding: 0;
 }
 
