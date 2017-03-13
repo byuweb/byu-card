@@ -62,7 +62,11 @@ $navy: #002E5D;
 
 #card-content::slotted(*) {
 	width: 100%;
-	padding: 10px 15px;
+	padding: 20px;
+}
+
+#card-content::slotted(ul) {
+	padding-left: 40px;
 }
 
 #card-content::slotted(img) {
