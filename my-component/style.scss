@@ -37,7 +37,7 @@ $navy: #002E5D;
 //	margin: 15px 1%;
 //}
 
-:host:hover {
+:host(:hover) {
     -moz-box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.3);
