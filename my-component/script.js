@@ -1,6 +1,5 @@
-(function (template) {
     'use strict';
-
+    const template = require('./template.html');
     class ByuCard extends HTMLElement {
 
         constructor() {
@@ -14,4 +13,3 @@
     window.customElements.define('byu-card', ByuCard);
     window.ByuCard = ByuCard;
 
-})(/* FUSE */);

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="../dist/my-component.js"></script>
+	<script src="../dist/components.js"></script>
+
 	<style>
 		h2 {
 			color: red;
@@ -9,37 +10,39 @@
 	</style>
 </head>
 <body>
+<!-- the styling with flex should occur with the container you put your cards in, like this: -->
+<div class="card-container" style="display: flex; flex-wrap: true; justify-content: space-between;">
+	<byu-card style="width: 30%;" >
 
-<byu-card style="width: 30%;" >
+		<h2>Title of Page Here</h2>
+		<img source="example.png">
 
-	<h2>Title of Page Here</h2>
-	<img source="example.png">
+		<p>There is a lot of information on this card. Starting with:</p>
+		<ul>
+			<li><a href="page-1">Link 1</a></li>
+			<li><a href="page-2">Link 2</a></li>
+		</ul>
+		<p>There is even more on this card. A lot of text to read and I can put links in wherever I would like.
+			For example, <a href="../blog">read our blog</a>.
+		</p>
 
-	<p>There is a lot of information on this card. Starting with:</p>
-	<ul>
-		<li><a href="page-1">Link 1</a></li>
-		<li><a href="page-2">Link 2</a></li>
-	</ul>
-	<p>There is even more on this card. A lot of text to read and I can put links in wherever I would like.
-		For example, <a href="../blog">read our blog</a>.
-	</p>
+	</byu-card>
 
-</byu-card>
+	<byu-card columns="3">
 
-<byu-card columns="3">
+		<h2>Title of Page Here</h2>
+		<img source="example.png">
 
-	<h2>Title of Page Here</h2>
-	<img source="example.png">
+		<p>There is a lot of information on this card. Starting with:</p>
+		<ul>
+			<li><a href="page-1">Link 1</a></li>
+			<li><a href="page-2">Link 2</a></li>
+		</ul>
+		<p>There is even more on this card. A lot of text to read and I can put links in wherever I would like.
+			For example, <a href="../blog">read our blog</a>.
+		</p>
 
-	<p>There is a lot of information on this card. Starting with:</p>
-	<ul>
-		<li><a href="page-1">Link 1</a></li>
-		<li><a href="page-2">Link 2</a></li>
-	</ul>
-	<p>There is even more on this card. A lot of text to read and I can put links in wherever I would like.
-		For example, <a href="../blog">read our blog</a>.
-	</p>
-
-</byu-card>
+	</byu-card>
+</div>
 </body>
 </html>
