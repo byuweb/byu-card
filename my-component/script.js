@@ -11,11 +11,11 @@
 
     }
 
-    connectedCallback() {
-        util.applyTemplate(this, 'byu-card', template, () => {
-            // this._addSomeEventListenersOrSomething();
-        });
-    }
+    // connectedCallback() {
+    //     util.applyTemplate(this, 'byu-card', template, () => {
+    //         // this._addSomeEventListenersOrSomething();
+    //     });
+    // }
 
     // this.shadowRoot.querySelector('#myId');
 
