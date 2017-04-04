@@ -9,6 +9,12 @@
   @include cardBaseHover();
 }
 
+:host {
+  ul, p {
+    margin-bottom: 0;
+  }
+}
+
 #card-content ::slotted(*) {
   @include cardContentSlotted();
 }
