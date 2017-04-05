@@ -25,6 +25,10 @@ $navy: #002E5D;
 	box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.3);
 }
 
+@mixin unorderedList() {
+	margin-bottom: 0;
+}
+
 @mixin cardContentSlotted() {
 	width: 100%;
 	padding: 0 20px;
