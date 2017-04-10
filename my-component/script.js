@@ -9,15 +9,13 @@ class ByuCard extends HTMLElement {
         this.attachShadow({mode: 'open'});
     }
 
+    connectedCallback() {
+        util.applyTemplate(this, 'byu-card', template, () => {
+            // this._addSomeEventListenersOrSomething();
+            // this.shadowRoot.querySelector('#myId');
+        });
+    }
 }
-
-connectedCallback(); {
-    util.applyTemplate(this, 'byu-card', template, () => {
-        // this._addSomeEventListenersOrSomething();
-    });
-}
-
-// this.shadowRoot.querySelector('#myId');
 
 window.customElements.define('byu-card', ByuCard);
 window.ByuCard = ByuCard;
