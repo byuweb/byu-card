@@ -1,15 +1,21 @@
-    'use strict';
-    const template = require('./template.html');
-    class ByuCard extends HTMLElement {
+'use strict';
+const util = require('byu-web-component-utils');
+const template = require('./template.html');
 
-        constructor() {
-            super();
-            let shadowRoot = this.attachShadow({mode: 'open'});
-            shadowRoot.innerHTML = template;
-		}
+class ByuCard extends HTMLElement {
 
+    constructor() {
+        super();
+        this.attachShadow({mode: 'open'});
     }
 
-    window.customElements.define('byu-card', ByuCard);
-    window.ByuCard = ByuCard;
+    connectedCallback() {
+        util.applyTemplate(this, 'byu-card', template, () => {
+            // this._addSomeEventListenersOrSomething();
+            // this.shadowRoot.querySelector('#myId');
+        });
+    }
+}
 
+window.customElements.define('byu-card', ByuCard);
+window.ByuCard = ByuCard;
