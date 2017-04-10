@@ -27,6 +27,9 @@
   @include cardContentSlottedImg();
 }
 
+#card-content ::slotted(:not(img)):first-of-type() {
+  @include firstSlotted();
+}
 
 // for mobile / tablet
 @media screen and (max-width: 1024px){
