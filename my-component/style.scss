@@ -5,6 +5,22 @@
   @include cardBase();
 }
 
+:host(.border-gray) {
+  @include borderGray();
+}
+
+:host(.border-navy) {
+  @include borderNavy();
+}
+
+:host(.border-small) {
+  @include borderSmall();
+}
+
+:host(.border-large) {
+  @include borderLarge();
+}
+
 :host(:hover) {
   @include cardBaseHover();
 }
