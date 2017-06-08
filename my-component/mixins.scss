@@ -3,6 +3,7 @@ $weight: bold;
 $navy: #002E5D;
 
 
+
 // :host refers to the custom element, in our case that is <my-profile>...</my-profile>
 @mixin cardBase() {
 	display: inline-block;
@@ -23,6 +24,22 @@ $navy: #002E5D;
 	-moz-box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.3);
 	-webkit-box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.3);
 	box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.3);
+}
+
+@mixin borderGray() {
+	border: 2px solid #767676;
+}
+
+@mixin borderNavy() {
+	border: 2px solid $navy;
+}
+
+@mixin borderSmall() {
+	border-radius: 10px;
+}
+
+@mixin borderLarge() {
+	border-radius: 25px;
 }
 
 @mixin unorderedList() {
