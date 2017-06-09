@@ -64,3 +64,23 @@ $navy: #002E5D;
 @mixin firstSlotted() {
 	padding-top: 20px !important;
 }
+
+@mixin radiusSmallTop() {
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+@mixin radiusLargeTop() {
+	border-top-left-radius: 22px;
+	border-top-right-radius: 22px;
+}
+
+@mixin radiusSmallBottom() {
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+@mixin radiusLargeBottom() {
+	border-bottom-left-radius: 22px;
+	border-bottom-right-radius: 22px;
+}
