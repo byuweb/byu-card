@@ -15,20 +15,20 @@
 
 :host(.border-small) {
   @include borderSmall();
-  #card-content > :first-of-type() {
+  #card-content:first-child {
     @include radiusSmallTop();
   }
-  #card-content > :last-of-type() {
+  #card-content:last-child {
     @include radiusSmallBottom();
   }
 }
 
 :host(.border-large) {
   @include borderLarge();
-  #card-content > :first-of-type() {
+  #card-content:first-child {
     @include radiusLargeTop();
   }
-  #card-content > :last-of-type() {
+  #card-content:last-child {
     @include radiusLargeBottom();
   }
 }
