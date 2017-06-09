@@ -17,7 +17,14 @@ https://github.com/byuweb/byu-card/blob/master/my-component/demo.html
 Styling Options:
 ----------------------
 Default Styling:
-There will be padding around all elements but <img> tags. If you put your <img> inside of another <div> or <p> it will have padding around it. There is a nice box shadow, with a darker box shadow on hover.
+There will be padding around all elements but <img> tags. If you put your <img> inside of another <div> or <p> it will have padding around it and it won't extend tot he edge nicely. If you aren't able to strip these wrapping <div>'s around your image, add the class 'image' to the direct child of <byu-card>.
+<byu-card>
+  <div class="image">
+    <img src="someimage.jpg"...>
+  </div>
+</byu-card>
+
+There is a nice box shadow, with a darker box shadow on hover.
 
 Text & Font: BYU-Card doesn't style the text differently. If you want titles or styled headings in your card, we suggest using <h2>'s or <H3>'s. The styling and fonts there will be set by your normal theming elsewhere in your website.
 
