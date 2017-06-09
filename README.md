@@ -19,6 +19,7 @@ Styling Options:
 Default Styling:
 There will be padding around all elements but <img> tags. If you put your <img> inside of another <div> or <p> it will have padding around it. There is a nice box shadow, with a darker box shadow on hover.
 
+Text & Font: BYU-Card doesn't style the text differently. If you want titles or styled headings in your card, we suggest using <h2>'s or <H3>'s. The styling and fonts there will be set by your normal theming elsewhere in your website.
 
 ALIGNMENT: Default is center. You can change it to left aligned by A) using the setting in Drupal Views or B) using code on your *container element*. This is not changed on the <byu-card> element, but it's parent container.
 
