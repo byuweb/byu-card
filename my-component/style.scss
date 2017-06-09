@@ -39,6 +39,7 @@
   @include cardContentSlottedUl();
 }
 
+#card-content ::slotted(.image),
 #card-content ::slotted(img) {
   @include cardContentSlottedImg();
 }
