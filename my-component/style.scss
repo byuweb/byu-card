@@ -15,20 +15,20 @@
 
 :host(.border-small) {
   @include borderSmall();
-  #card-content ::slotted(:first-of-type()) {
+  #card-content ::slotted(:first-of-type(.image)) {
     @include radiusSmallTop();
   }
-  #card-content ::slotted(:last-of-type()) {
+  #card-content ::slotted(:last-of-type(.image)) {
     @include radiusSmallBottom();
   }
 }
 
 :host(.border-large) {
   @include borderLarge();
-  #card-content ::slotted(:first-of-type()) {
+  #card-content ::slotted(:first-of-type(.image)) {
     @include radiusLargeTop();
   }
-  #card-content ::slotted(:last-of-type()) {
+  #card-content ::slotted(:last-of-type(.image)) {
     @include radiusLargeBottom();
   }
 }
