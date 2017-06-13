@@ -44,7 +44,7 @@
   @include cardContentSlottedImg();
 }
 
-#card-content ::slotted(:not(img)):first-of-type() {
+#card-content ::slotted(:first-child(:not(.image))) {
   @include firstSlotted();
 }
 
