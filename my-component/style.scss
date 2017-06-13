@@ -15,22 +15,22 @@
 
 :host(.border-small) {
   @include borderSmall();
-  #card-content:first-child {
-    @include radiusSmallTop();
-  }
-  #card-content:last-child {
-    @include radiusSmallBottom();
-  }
+  //#card-content:first-child {
+  //  @include radiusSmallTop();
+  //}
+  //#card-content:last-child {
+  //  @include radiusSmallBottom();
+  //}
 }
 
 :host(.border-large) {
   @include borderLarge();
-  #card-content:first-child {
-    @include radiusLargeTop();
-  }
-  #card-content:last-child {
-    @include radiusLargeBottom();
-  }
+  //#card-content:first-child {
+  //  @include radiusLargeTop();
+  //}
+  //#card-content:last-child {
+  //  @include radiusLargeBottom();
+  //}
 }
 
 :host(:hover) {

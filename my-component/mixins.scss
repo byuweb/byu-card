@@ -36,10 +36,12 @@ $navy: #002E5D;
 
 @mixin borderSmall() {
 	border-radius: 10px;
+	overflow: hidden;
 }
 
 @mixin borderLarge() {
 	border-radius: 25px;
+	overflow: hidden;
 }
 
 @mixin unorderedList() {
