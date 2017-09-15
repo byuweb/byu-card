@@ -22,6 +22,9 @@ initWcBuild(gulp, {
     componentName: 'byu-card',
     js: {
         input: './my-component/script.js'
+    },
+    css: {
+        input: './my-component/byu-card.scss'
     }
     // if FOUC is added later, then specify that stylesheet here, to load styling before component loads
     //css: {
