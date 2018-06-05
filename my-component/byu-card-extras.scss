@@ -1,0 +1,31 @@
+@import "byu-card-common";
+
+:host {
+	@include cardBase();
+}
+
+:host(:hover) {
+	@include cardBaseHover();
+}
+
+#card-content ::slotted(*) {
+	@include cardContentSlotted();
+}
+
+#card-content ::slotted(ul) {
+	@include cardContentSlottedUl();
+}
+
+#card-content ::slotted(img) {
+	@include cardContentSlottedImg();
+}
+
+byu-card img {
+	@include cardContentSlottedImgActual();
+}
+
+
+// for mobile / tablet
+@media screen and (max-width: 1024px){
+
+}

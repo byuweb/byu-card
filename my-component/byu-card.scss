@@ -1,25 +1,52 @@
-@import "mixins.scss";
+@import "byu-card-common";
 
+// :host refers to the custom element, in our case that is <my-profile>...</my-profile>
 :host {
-	@include cardBase();
+  @include cardBase();
+}
+
+:host(.border-gray) {
+  @include borderGray();
+}
+
+:host(.border-navy) {
+  @include borderNavy();
+}
+
+:host(.border-small) {
+  @include borderSmall();
+}
+
+:host(.border-large) {
+  @include borderLarge();
 }
 
 :host(:hover) {
-	@include cardBaseHover();
+  @include cardBaseHover();
+}
+
+:host {
+  ul {
+    @include unorderedList();
+  }
 }
 
 #card-content ::slotted(*) {
-	@include cardContentSlotted();
+  @include cardContentSlotted();
 }
 
 #card-content ::slotted(ul) {
-	@include cardContentSlottedUl();
+  @include cardContentSlottedUl();
 }
 
+#card-content ::slotted(.image),
 #card-content ::slotted(img) {
-	@include cardContentSlottedImg();
+  @include cardContentSlottedImg();
 }
 
+#card-content ::slotted(:first-child(:not(.image))) {
+  @include firstSlotted();
+}
 
 // for mobile / tablet
 @media screen and (max-width: 1024px){

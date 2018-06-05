@@ -27,4 +27,7 @@
 #card-content ::slotted(img) {
   padding: 0 !important; }
 
+byu-card img {
+  width: 100%; }
+
 /*# sourceMappingURL=byu-card.css.map */
