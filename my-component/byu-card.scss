@@ -31,20 +31,20 @@
   }
 }
 
-#card-content ::slotted(*) {
+.byu-card-content ::slotted(*) {
   @include cardContentSlotted();
 }
 
-#card-content ::slotted(ul) {
+.byu-card-content ::slotted(ul) {
   @include cardContentSlottedUl();
 }
 
-#card-content ::slotted(.image),
-#card-content ::slotted(img) {
+.byu-card-content ::slotted(.image),
+.byu-card-content ::slotted(img) {
   @include cardContentSlottedImg();
 }
 
-#card-content ::slotted(:first-child(:not(.image))) {
+.byu-card-content ::slotted(:first-child(:not(.image))) {
   @include firstSlotted();
 }
 

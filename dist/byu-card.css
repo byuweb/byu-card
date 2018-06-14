@@ -15,16 +15,16 @@
   -webkit-box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.3); }
 
-#card-content ::slotted(*) {
+.byu-card-content ::slotted(*) {
   width: 100%;
   box-sizing: border-box;
   padding: 0 20px !important;
   color: #444; }
 
-#card-content ::slotted(ul) {
+.byu-card-content ::slotted(ul) {
   padding-left: 40px !important; }
 
-#card-content ::slotted(img) {
+.byu-card-content ::slotted(img) {
   padding: 0 !important; }
 
 byu-card img {
