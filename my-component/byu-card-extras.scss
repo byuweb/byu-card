@@ -8,15 +8,15 @@
 	@include cardBaseHover();
 }
 
-#card-content ::slotted(*) {
+.byu-card-content ::slotted(*) {
 	@include cardContentSlotted();
 }
 
-#card-content ::slotted(ul) {
+.byu-card-content ::slotted(ul) {
 	@include cardContentSlottedUl();
 }
 
-#card-content ::slotted(img) {
+.byu-card-content ::slotted(img) {
 	@include cardContentSlottedImg();
 }
 

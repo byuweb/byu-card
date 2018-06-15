@@ -139,7 +139,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "<style>" + __webpack_require__ (7) + "</style> <div id=\"card-content\"> <slot> </slot> </div>";
+module.exports = "<style>" + __webpack_require__ (7) + "</style> <div class=\"byu-card-content\"> <slot> </slot> </div>";
 
 /***/ }),
 /* 3 */
@@ -348,7 +348,7 @@ exports = module.exports = __webpack_require__(8)();
 
 
 // module
-exports.push([module.i, ":host{display:inline-block;background-color:#fff;-moz-box-shadow:0 8px 12px rgba(0,0,0,.2);-webkit-box-shadow:0 8px 12px rgba(0,0,0,.2);box-shadow:0 8px 12px rgba(0,0,0,.2);vertical-align:top;min-width:250px;width:30%;max-width:700px;margin-bottom:20px}:host(.border-gray){border:2px solid #767676}:host(.border-navy){border:2px solid #002e5d}:host(.border-small){border-radius:10px;overflow:hidden}:host(.border-large){border-radius:25px;overflow:hidden}:host(:hover){-moz-box-shadow:0 10px 18px 0 rgba(0,0,0,.3);-webkit-box-shadow:0 10px 18px 0 rgba(0,0,0,.3);box-shadow:0 10px 18px 0 rgba(0,0,0,.3)}:host ul{margin-bottom:0!important}#card-content ::slotted(*){width:100%;box-sizing:border-box;padding:0 20px!important;color:#444}#card-content ::slotted(ul){padding-left:40px!important}#card-content ::slotted(.image),#card-content ::slotted(img){padding:0!important}#card-content ::slotted(:first-child(:not(.image))){padding-top:20px!important}", ""]);
+exports.push([module.i, ":host{display:inline-block;background-color:#fff;-moz-box-shadow:0 8px 12px rgba(0,0,0,.2);-webkit-box-shadow:0 8px 12px rgba(0,0,0,.2);box-shadow:0 8px 12px rgba(0,0,0,.2);vertical-align:top;min-width:250px;width:30%;max-width:700px;margin-bottom:20px}:host(.border-gray){border:2px solid #767676}:host(.border-navy){border:2px solid #002e5d}:host(.border-small){border-radius:10px;overflow:hidden}:host(.border-large){border-radius:25px;overflow:hidden}:host(:hover){-moz-box-shadow:0 10px 18px 0 rgba(0,0,0,.3);-webkit-box-shadow:0 10px 18px 0 rgba(0,0,0,.3);box-shadow:0 10px 18px 0 rgba(0,0,0,.3)}:host ul{margin-bottom:0!important}.byu-card-content ::slotted(*){width:100%;box-sizing:border-box;padding:0 20px!important}.byu-card-content ::slotted(ul){padding-left:40px!important}.byu-card-content ::slotted(.image),.byu-card-content ::slotted(img){padding:0!important}.byu-card-content ::slotted(:first-child(:not(.image))){padding-top:20px!important}", ""]);
 
 // exports
 
