@@ -18,8 +18,7 @@
 .byu-card-content ::slotted(*) {
   width: 100%;
   box-sizing: border-box;
-  padding: 0 20px !important;
-  color: #444; }
+  padding: 0 20px !important; }
 
 .byu-card-content ::slotted(ul) {
   padding-left: 40px !important; }
